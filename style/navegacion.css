@@ -1,0 +1,68 @@
+*, h6, h2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    /* background: linear-gradient(to bottom, #292929 50%, #777777); */
+    background-color: #2c2c2c;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* NavBar **************************************************************************/
+
+.navbar-waldaz{
+    background-color: #2c2c2cec;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+    0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-nav .nav-link {
+    color: white; 
+}
+
+.content-logo-navbar{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 8px;
+    padding-left: 50px;
+}
+
+.logo-navbar{
+    width: 60px;
+}
+
+.content-link-navbar{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.content-link-navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+
+@media(max-width: 500px){
+    .content-logo-navbar{
+        padding-left: 20px;
+    }
+}
+
